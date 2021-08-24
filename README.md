@@ -1,6 +1,9 @@
 # shop_app
 
-A new Flutter project.
+A new Flutter project for 
+
+- [Lab: Write your Flutter Shop App](https://sanjibsinha.com/category/flutter)
+
 
 ## Getting Started
 
