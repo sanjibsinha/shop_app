@@ -18,7 +18,13 @@ class ShopProductDetailScreen extends StatelessWidget {
     ).findById(productId);
     return Scaffold(
       appBar: AppBar(
-        title: Text(loadedProduct.title),
+        title: Text(
+          loadedProduct.title,
+          style: TextStyle(
+            fontFamily: 'Schuyler',
+            fontSize: 30.0,
+          ),
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -37,6 +43,7 @@ class ShopProductDetailScreen extends StatelessWidget {
               style: const TextStyle(
                 color: Colors.grey,
                 fontSize: 20,
+                fontFamily: 'Anton',
               ),
             ),
             const SizedBox(
@@ -50,7 +57,7 @@ class ShopProductDetailScreen extends StatelessWidget {
                 textAlign: TextAlign.center,
                 softWrap: true,
                 style: TextStyle(
-                  fontFamily: 'Lato',
+                  fontFamily: 'Trazan Pro',
                   fontSize: 30.0,
                 ),
               ),

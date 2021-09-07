@@ -83,9 +83,15 @@ flutter:
   #         style: italic
      - family: Anton
        fonts:
-         - asset: assets/fonts/Anton-Regular.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+          - asset: assets/fonts/Anton-Regular.ttf
+  
+     - family: Schuyler
+       fonts:
+          - asset: assets/fonts/Schuyler.ttf
+      
+     - family: Trajan Pro
+       fonts:
+          - asset: assets/fonts/Trajan Pro Regular.ttf
+  
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
