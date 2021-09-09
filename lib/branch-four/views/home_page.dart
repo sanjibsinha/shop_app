@@ -3,7 +3,6 @@ import 'package:flutter/widgets.dart';
 import '../controllers/cyber_controller.dart';
 import '../controllers/exclusive_weapon_controller.dart';
 import '../controllers/top_battle_controller.dart';
-import '../views/about_all_wars.dart';
 
 import 'all_wars.dart';
 
